@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.groupId>me.redstoner2019</project.groupId>
+        <project.adtifactId>utilities</project.adtifactId>
+        <project.version>v1.0.0</project.version>
+    </properties>
+
+    <groupId>${project.groupId}</groupId>
+    <artifactId>${project.artifactId}</artifactId>
+    <version>${project.version}</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Redstoner-2019</name>
+            <url>https://maven.pkg.github.com/Redstoner-2019/Utilities</url>
+        </repository>
+    </distributionManagement>
+
+</project>
